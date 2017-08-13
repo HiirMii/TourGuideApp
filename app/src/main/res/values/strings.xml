@@ -1,0 +1,651 @@
+<resources>
+    <!-- Title for the application. -->
+    <string name="app_name">Visit Venice</string>
+
+    <!-- CATEGORY NAMES -->
+
+    <!-- Name for the welcome category - landing category. -->
+    <string name="category_welcome">Welcome to Venice</string>
+
+    <!-- Name for sights category -->
+    <string name="category_sights">Venice Top Sights</string>
+
+    <!-- Name for hotels category -->
+    <string name="category_hotels">Venice Hotels</string>
+
+    <!-- Name for restaurants category -->
+    <string name="category_restaurants">Venice Restaurants</string>
+
+    <!-- Name for attractions category -->
+    <string name="category_attractions">Venice Attractions</string>
+
+    <!-- PLACEHOLDER STRINGS FOR ADAPTER INTENTS -->
+    <string name="name_placeholder">name</string>
+    <string name="address_placeholder">address</string>
+    <string name="image_id_placeholder">image</string>
+    <string name="description_placeholder">description</string>
+    <string name="url_placeholder">url</string>
+
+    <!-- IMAGE DESCRIPTIONS -->
+    <string name="welcome_image_description">Photo of Venice.</string>
+    <string name="place_image_description">Photo of the described place.</string>
+
+    <!-- WELCOME CATEGORY -->
+
+    <!-- Image labels -->
+    <string name="welcome_image_label_1">Venice</string>
+    <string name="welcome_image_label_2">Veneto, Italy</string>
+
+    <!-- Main text -->
+    <string name="welcome_text">Venice, the capital of northern Italy\'s Veneto region,
+        is built on more than 100 small islands in a lagoon in the Adriatic Sea.
+        It has no roads, just canals – including the Grand Canal thoroughfare –
+        lined with Renaissance and Gothic palaces. The central square, Piazza San Marco,
+        contains St. Mark\'s Basilica, which is tiled with Byzantine mosaics,
+        and the Campanile bell tower offering views of the city’s red roofs.\n\n
+        The Gothic pink-and-white-marble Doge\'s Palace sits on the east
+        side of the piazza. Before the Christian holiday of Lent, this area becomes the epicenter
+        of Venice\'s Carnival, where partygoers dress in elaborate masks and costumes.
+        A gondola ride away are the Peggy Guggenheim Collection, an influential gallery
+        of modern art, and the Galleria dell\'Accademia, a museum of Renaissance-era and Vedutisti
+        paintings. The covered Rialto foot bridge leads to a market that supplies many of the
+        city\'s fish-focused Venetian restaurants.</string>
+
+    <!-- SIGHTS CATEGORY -->
+
+    <string name="grand_canal_name">Grand Canal</string>
+    <string name="grand_canal_address">30100 Venice, Italy</string>
+    <string name="grand_canal_description">The banks of the Grand Canal are lined with more than
+        170 buildings, most of which date from the 13th to the 18th century, and demonstrate
+        the welfare and art created by the Republic of Venice. The noble Venetian families faced
+        huge expenses to show off their richness in suitable palazzos; this contest reveals
+        the citizens\’ pride and the deep bond with the lagoon. Amongst the many are
+        the Palazzi Barbaro, Ca\' Rezzonico, Ca\' d\'Oro, Palazzo Dario, Ca\' Foscari,
+        Palazzo Barbarigo and to Palazzo Venier dei Leoni, housing the Peggy Guggenheim Collection.
+        The churches along the canal include the basilica of Santa Maria della Salute.
+        Centuries-old traditions, such as the Historical Regatta,
+        are perpetuated every year along the Canal.\n\n
+        Because most of the city\'s traffic goes along the Canal rather than across it, only one
+        bridge crossed the canal until the 19th century, the Rialto Bridge. There are currently
+        three more bridges, the Ponte degli Scalzi, the Ponte dell\'Accademia,
+        and the controversial Ponte della Costituzione from 2008, designed by Santiago Calatrava,
+        connecting the train station to Piazzale Roma, one of the few places in Venice where buses
+        and cars can enter. As was usual in the past, people can still take a ferry ride across
+        the canal at several points by standing up on the deck of a simple gondola called a
+        traghetto, although this service is less common than even a decade ago.\n\n
+        Most of the palaces emerge from water without pavement. Consequently,
+        one can only tour past the fronts of the buildings on the grand canal by boat.</string>
+    <string name="grand_canal_url">https://en.wikipedia.org/wiki/Grand_Canal_(Venice)</string>
+    <string name="st_marks_basilica_name">Saint Mark\'s Basilica</string>
+    <string name="st_marks_basilica_address">Piazza San Marco, 328, 30100\u00A0Venice, Italy</string>
+    <string name="st_marks_basilica_description">The Patriarchal Cathedral Basilica of Saint Mark
+        (Italian: Basilica Cattedrale Patriarcale di San Marco), commonly known as Saint Mark\'s
+        Basilica (Italian: Basilica di San Marco; Venetian: Baxéłega de San Marco),
+        is the cathedral church of the Roman Catholic Archdiocese of Venice, northern Italy.
+        It is the most famous of the city\'s churches and one of the best known examples
+        of Italo-Byzantine architecture. It lies at the eastern end of the Piazza San Marco,
+        adjacent and connected to the Doge\'s Palace. Originally it was the chapel of the Doge,
+        and has only been the city\'s cathedral since 1807, when it became the seat of the
+        Patriarch of Venice, archbishop of the Roman Catholic Archdiocese of Venice,
+        formerly at San Pietro di Castello.\n\n
+        For its opulent design, gold ground mosaics, and its status as a symbol of Venetian wealth
+        and power, from the 11th century on the building has been known by the nickname
+        Chiesa d\'Oro (Church of gold).</string>
+    <string name="st_marks_basilica_url">http://www.basilicasanmarco.it/?lang=en</string>
+    <string name="doges_palace_name">Doge\'s Palace</string>
+    <string name="doges_palace_address">San Marco, 1, 30124\u00A0Venice, Italy</string>
+    <string name="doges_palace_description">In 810, Doge Angelo Partecipazio moved the seat of
+        government from the island of Malamocco to the area of the present-day Rialto, when it was
+        decided a palatium duci, a ducal palace, should be built. However, no trace remains of that
+        9th-century building as the palace was partially destroyed in the 10th century by a fire.
+        The following reconstruction works were undertaken at the behest of Doge Sebastiano Ziani
+        (1172–1178). A great reformer, he would drastically change the entire layout of the
+        St. Mark\'s Square. The new palace was built out of fortresses, one façade to the Piazzetta,
+        the other overlooking the St. Mark\'s Basin. Although only few traces remain of that palace,
+        some Byzantine-Venetian architecture characteristics can still be seen at the ground floor,
+        with the wall base in Istrian stone and some herring-bone pattern brick paving. Political
+        changes in the mid-13th century led to the need to re-think the palace\'s structure due to
+        the considerable increase in the number of the Great Council\'s members. The new Gothic
+        palace\'s constructions started around 1340, focusing mostly on the side of the building
+        facing the lagoon. Only in 1424, did Doge Francesco Foscari decide to extend the rebuilding
+        works to the wing overlooking the Piazzetta, serving as law-courts, and with a ground floor
+        arcade on the outside, open first floor loggias running along the façade, and the internal
+        courtyard side of the wing, completed with the construction of the Porta della Carta (1442).
+        \n\nIn 1483, a violent fire broke out in the side of the palace overlooking the canal, where
+        the Doge\'s Apartments were. Once again, an important reconstruction became necessary and
+        was commissioned from Antonio Rizzo, who would introduce the new Renaissance language to the
+        building\'s architecture. An entire new structure was raised alongside the canal, stretching
+        from the ponte della Canonica to the Ponte della Paglia, with the official rooms of the
+        government decorated with works commissioned from Vittore Carpaccio, Giorgione,
+        Alvise Vivarini and Giovanni Bellini. Another huge fire in 1547 destroyed some of the rooms
+        on the second floor, but fortunately without undermining the structure as a whole.
+        Refurbishment works were being held at the palace when on 1577 a third fire destroyed
+        the Scrutinio Room and the Great Council Chamber, together with works by Gentile da Fabriano,
+        Pisanello, Alvise Vivarini, Vittore Carpaccio, Giovanni Bellini, Pordenone, and Titian.
+        In the subsequent rebuilding work it was decided to respect the original Gothic style,
+        despite the submission of a neo-classical alternative designs by the influential Renaissance
+        architect Andrea Palladio. However, there are some classical features — for example, since
+        the 16th century, the palace has been linked to the prison by the Bridge of Sighs.
+        As well as being the ducal residence, the palace housed political institutions of the
+        Republic of Venice until the Napoleonic occupation of the city in 1797, when its role
+        inevitably changed. Venice was subjected first to French rule, then to Austrian, and finally
+        in 1866 it became part of Italy. Over this period, the palace was occupied by various
+        administrative offices as well as housing the Biblioteca Marciana and other important
+        cultural institutions within the city.\n\n
+        By the end of the 19th century, the structure was showing clear signs of decay, and the
+        Italian government set aside significant funds for its restoration and all public offices
+        were moved elsewhere, with the exception of the State Office for the protection of historical
+        Monuments, which is still housed at the palace\'s loggia floor. In 1923, the Italian State,
+        owner of the building, entrusted the management to the Venetian municipality to be run as a
+        museum. Since 1996, the Doge\’s Palace has been part of the Venetian museums network, which
+        has been under the management of the Fondazione Musei Civici di Venezia since 2008.</string>
+    <string name="doges_palace_url">http://palazzoducale.visitmuve.it/en/home/</string>
+    <string name="piazza_san_marco_name">Piazza San Marco</string>
+    <string name="piazza_san_marco_address">Piazza San Marco, 30100\u00A0Venice, Italy</string>
+    <string name="piazza_san_marco_description">Piazza San Marco (Venetian: Piasa San Marco),
+        often known in English as St Mark\'s Square, is the principal public square of Venice, Italy,
+        where it is generally known just as la Piazza ("the Square"). All other urban spaces in the
+        city (except the Piazzetta and the Piazzale Roma) are called campi ("fields"). The Piazzetta
+        ("little Piazza/Square") is an extension of the Piazza towards the lagoon in its south east
+        corner (see plan). The two spaces together form the social, religious and political centre
+        of Venice and are commonly considered together.\n\n
+        A remark usually attributed (though without proof) to Napoleon calls the Piazza San Marco
+        "the drawing room of Europe".</string>
+    <string name="piazza_san_marco_url">
+        http://www.associazionepiazzasanmarco.it/it/visita-virtuale-piazza-san-marco.php</string>
+    <string name="rialto_bridge_name">Rialto Bridge</string>
+    <string name="rialto_bridge_address">Sestiere San Polo, 30125\u00A0Venice, Italy</string>
+    <string name="rialto_bridge_description">The first dry crossing of the Grand Canal was a pontoon
+        bridge built in 1181 by Nicolò Barattieri. It was called the Ponte della Moneta, presumably
+        because of the mint that stood near its eastern entrance.\n\n
+        The development and importance of the Rialto market on the eastern bank increased traffic on
+        the floating bridge, so it was replaced in 1255 by a wooden bridge. This structure had two
+        inclined ramps meeting at a movable central section, that could be raised to allow the
+        passage of tall ships. The connection with the market eventually led to a change of name for
+        the bridge. During the first half of the 15th century, two rows of shops were built along
+        the sides of the bridge. The rents brought an income to the State Treasury, which helped
+        maintain the bridge.\n\n
+        Maintenance was vital for the timber bridge. It was partly burnt in the revolt led by
+        Bajamonte Tiepolo in 1310. In 1444, it collapsed under the weight of a crowd watching a boat
+        parade and it collapsed again in 1524.\n\n
+        The idea of rebuilding the bridge in stone was first proposed in 1503. Several projects were
+        considered over the following decades. In 1551, the authorities requested proposals for the
+        renewal of the Rialto Bridge, among other things. Plans were offered by famous architects,
+        such as Jacopo Sansovino, Palladio and Vignola, but all involved a Classical approach with
+        several arches, which was judged inappropriate to the situation. Michelangelo also was
+        considered as designer of the bridge.\n\n
+        The present stone bridge, a single span designed by Antonio da Ponte, was finally completed
+        in 1591. It is similar to the wooden bridge it succeeded. Two inclined ramps lead up to a
+        central portico. On either side of the portico, the covered ramps carry rows of shops. The
+        engineering of the bridge was considered so audacious that architect Vincenzo Scamozzi
+        predicted future ruin. The bridge has defied its critics to become one of the architectural
+        icons of Venice.\n\n
+        Today, the Bridge is one of the top tourism attractions in Venice.</string>
+    <string name="rialto_bridge_url">https://en.wikipedia.org/wiki/Rialto_Bridge</string>
+    <string name="gallerie_dell_accademia_name">Gallerie dell\'Accademia</string>
+    <string name="gallerie_dell_accademia_address">Campo della Carita, 1050,
+        30123\u00A0Venice, Italy</string>
+    <string name="gallerie_dell_accademia_description">The Gallerie dell\'Accademia is a museum
+        gallery of pre-19th-century art in Venice, northern Italy. It is housed in the Scuola della
+        Carità on the south bank of the Grand Canal, within the sestiere of Dorsoduro. It was
+        originally the gallery of the Accademia di Belle Arti di Venezia, the art academy of Venice,
+        from which it became independent in 1879, and for which the Ponte dell\'Accademia and the
+        Accademia boat landing station for the vaporetto water bus are named. The two institutions
+        remained in the same building until 2004, when the art school moved to the Ospedale degli
+        Incurabili.</string>
+    <string name="gallerie_dell_accademia_url">http://www.gallerieaccademia.it/</string>
+    <string name="st_marks_campanile_name">Saint Mark\'s Campanile</string>
+    <string name="st_marks_campanile_address">Piazza San Marco, 30124\u00A0Venice, Italy</string>
+    <string name="st_marks_campanile_description">St Mark\'s Campanile (Italian: Campanile di San
+        Marco; Venetian: Canpanièl de San Marco) is the bell tower of St Mark\'s Basilica in Venice,
+        Italy, located in the Piazza San Marco. It is one of the most recognizable symbols of the
+        city.\n\nThe tower is 98.6 metres (323 ft) tall, and stands alone in a corner of St Mark\'s
+        Square, near the front of the basilica. It has a simple form, the bulk of which is a fluted
+        brick square shaft, 12 metres (39 ft) wide on each side and 50 metres (160 ft) tall, above
+        which is a loggia surrounding the belfry, housing five bells. The belfry is topped by a cube,
+        alternate faces of which show the Lion of St. Mark and the female representation of Venice
+        (la Giustizia: Justice). The tower is capped by a pyramidal spire, at the top of which sits
+        a golden weathervane in the form of the archangel Gabriel(the one in the nativity). The
+        campanile reached its present form in 1514. The current tower was reconstructed in its
+        present form in 1912 after the collapse of 1902.</string>
+    <string name="st_marks_campanile_url">https://en.wikipedia.org/wiki/St_Mark%27s_Campanile</string>
+    <string name="bridge_of_sighs_name">Bridge of Sighs</string>
+    <string name="bridge_of_sighs_address">Piazza San Marco, 1, 30100\u00A0Venice, Italy</string>
+    <string name="bridge_of_sighs_description">The Bridge of Sighs (Italian: Ponte dei Sospiri) is a
+        bridge located in Venice, northern Italy. The enclosed bridge is made of white limestone,
+        has windows with stone bars, and passes over the Rio di Palazzo and connects the New Prison
+        (Prigioni Nuove) to the interrogation rooms in the Doge\'s Palace. It was designed by
+        Antonio Contino (whose uncle Antonio da Ponte had designed the Rialto Bridge) and was built
+        in 1600.\n\nThe view from the Bridge of Sighs was the last view of Venice that convicts saw
+        before their imprisonment. The bridge\'s name, given by Lord Byron as a translation from the
+        Italian "Ponte dei sospiri" in the 19th century, comes from the suggestion that prisoners
+        would sigh at their final view of beautiful Venice through the window before being taken
+        down to their cells. In reality, the days of inquisitions and summary executions were over
+        by the time the bridge was built, and the cells under the palace roof were occupied mostly
+        by small-time criminals. In addition, little could be seen from inside the bridge due to the
+        stone grills covering the windows.</string>
+    <string name="bridge_of_sighs_url">http://www.bridgeofsighs.info/</string>
+    <string name="ca_rezzonico_name">Ca\' Rezzonico</string>
+    <string name="ca_rezzonico_address">Dorsoduro, 3136, 30123\u00A0Venice, Italy</string>
+    <string name="ca_rezzonico_description">Ca\' Rezzonico is a palazzo on the Grand Canal in the
+        Dorsoduro sestiere of Venice, Italy. Today, it is a public museum dedicated to 18th-century
+        Venice (Museo del Settecento Veneziano) and one of the 11 venues managed by the Fondazione
+        Musei Civici di Venezia.</string>
+    <string name="ca_rezzonico_url">http://carezzonico.visitmuve.it/en/home/</string>
+    <string name="basilica_di_manta_maria_della_salute_name">
+        Basilica di Santa Maria della Salute</string>
+    <string name="basilica_di_manta_maria_della_salute_address">
+        Fondamenta Salute, 30123\u00A0Venice, Italy</string>
+    <string name="basilica_di_manta_maria_della_salute_description">Santa Maria della Salute
+        (English: Saint Mary of Health), commonly known simply as the Salute, is a Roman Catholic
+        church and minor basilica located at Punta della Dogana in the Dorsoduro sestiere of the city
+        of Venice, Italy.\n\nIt stands on the narrow finger of Punta della Dogana, between the Grand
+        Canal and the Giudecca Canal, at the Bacino di San Marco, making the church visible when
+        entering the Piazza San Marco from the water. The Salute is part of the parish of the Gesuati
+        and is the most recent of the so-called plague churches.\n\nIn 1630, Venice experienced an
+        unusually devastating outbreak of the plague. As a votive offering for the city\'s
+        deliverance from the pestilence, the Republic of Venice vowed to build and dedicate a church
+        to Our Lady of Health (or of Deliverance, Italian: Salute). The church was designed in the
+        then fashionable baroque style by Baldassare Longhena, who studied under the architect
+        Vincenzo Scamozzi. Construction began in 1631. Most of the objects of art housed in the
+        church bear references to the Black Death.\n\nThe dome of the Salute was an important
+        addition to the Venice skyline and soon became emblematic of the city, inspiring artists like
+        Canaletto, J. M. W. Turner, John Singer Sargent, and the Venetian artist Francesco Guardi.
+    </string>
+    <string name="basilica_di_manta_maria_della_salute_url">
+        https://en.wikipedia.org/wiki/Santa_Maria_della_Salute</string>
+
+    <!-- ATTRACTIONS CATEGORY -->
+
+    <string name="gondola_ride_name">Gondola Ride</string>
+    <string name="gondola_ride_address">Take a gondola ride in Venice.</string>
+    <string name="gondola_ride_description"> There are two important rules to remember about gondola
+        rides in Venice:\n\nIf the price bothers you, don\'t do it.\n\nIf the price doesn\'t
+        bother you, make sure you understood the gondolier correctly.\n\nFact is, a gondola cruise
+        in Venice is like traveling by hansom cab in New York\'s Central Park: It can be a delightful
+        experience, but only if you\'re able to forget the price and focus on the ride.</string>
+    <string name="gondola_ride_url">https://www.venice-gondola-rides.com/</string>
+    <string name="venice_food_and_wine_name">Venice Food and Wine</string>
+    <string name="venice_food_and_wine_address">Try local food and wine.</string>
+    <string name="venice_food_and_wine_description">Don\'t spoil your visit to Venice by eating in
+        over-priced tourist traps – follow the locals\' lead and graze on bar snacks in back-street
+        osterie.\n\nSpain is known for its tapas, particularly in the Basque region where it is
+        called Pintxos. You\’ve probably had Greek mezes while on holiday in Greece but did you know
+        that Venice has it own tradition of small sharing plates?\n\nVenetian cicchetti, pronounced
+        (chi-KET-tee) can be found across the city in small traditional wine bars called bacari.\n\n
+        So what makes bacari popular with Venetians? For one, these bars have maintained their
+        traditional spirit with customers mingling around the bar, chatting and expecting nothing but
+        good company.\n\nJust don\’t mention the t-word (tapas) you don’t want to offend the locals.
+        \n\nA cicchetti pub crawl is called giro d\'ombra. Giro means \'stroll\' and \'ombra\' slang
+        for a glass of wine, means \'shade\'.\n\nIf you want an authentic experience of Venice, you
+        need to be adventurous and go for a wander. Getting lost is probably the best way to do this.
+        \n\nThe further you venture from St Mark\’s square, the more bacari you will stumble upon.
+        Backstreet bacari\’s are where you find the locals – pop in for a glass of wine and some
+        snacks.\n\nThe good thing about bacari is that usually won\’t be penalised for sitting down,
+        although most people prefer to stand, but the if bar is big enough, there may be some table
+        and chairs to rest weary feet.\n\nThese small hole-in-the-wall eateries have lots of tasty
+        morsels for you to try.\n\nSome typical food you might see on offer – deep fried mozzarella,
+        gorgonzola, calamari, and artichoke hearts – basically anything you can put on a toothpick.
+    </string>
+    <string name="venice_food_and_wine_url">https://www.venicebitesfoodtours.com/</string>
+    <string name="the_carnival_of_venice_name">The Carnival of Venice</string>
+    <string name="the_carnival_of_venice_address">
+        The Carnival of Venice is an annual festival held in Venice.</string>
+    <string name="the_carnival_of_venice_description"> During the Carnival (Carnevale), this most
+        magical of cities fills with a mass of masked party-goers - posing and preening, dancing and
+        philandering, in a slightly surreal re-invention of a great tradition of the city.\n\n
+        Glancing at the portrayals of 18th-century Venetian life in the works of Pietro Longhi or
+        Gabriele Bella in the Querini Stampalia gallery or the Ca\’ Rezzonico museum will reveal that
+        was exactly what Venice in its party prime was all about. It\’s not for everybody. It can be
+        intensely crowded, and rates in hotels and restaurants soar. But it is a unique occasion, and
+        a great time to see the city in a new and exciting light. </string>
+    <string name="the_carnival_of_venice_url">https://venice-carnival-italy.com/</string>
+    <string name="campanile_view_name">Campanile View</string>
+    <string name="campanile_view_address">
+        Watch the whole city from the top of the Campanile.</string>
+    <string name="campanile_view_description">A visit to the top of the Bell tower is obvious of
+        course to be able to enjoy the superb view that it gives on all city of Venice,
+        Giudecca and other closest islands such as San Giorgio, Murano and Lido.</string>
+    <string name="campanile_view_url">http://www.basilicasanmarco.it/basilica/campanile/?lang=en</string>
+    <string name="casanovas_story_name">Casanova\'s Story</string>
+    <string name="casanovas_story_address">
+        Follow famous lover\'s steps.</string>
+    <string name="casanovas_story_description">Are you dreaming of retracing the history of famous
+        Giacomo Casanova? Book now our unprecedented Casanova tour  in Venice, Italy: visit Casanova
+        sites with a guide walking along his trails to discover the places that have seen the actions
+        of the famous Venetian womanizer! A walk around Casanova\'s favorite city, where all the
+        sites he frequented represent a kind of Casanova Venice museum.</string>
+    <string name="casanovas_story_url">https://www.venetoinside.com/tours-activities-in-veneto/tour/
+        venice-casanova-tour/</string>
+    <string name="museo_della_musica_name">Museo della Musica</string>
+    <string name="museo_della_musica_address">Visit the Museum of Music,
+        it is different than all the others.</string>
+    <string name="museo_della_musica_description">Housed in the restored neoclassical Chiesa di San
+        Maurizio, this collection of rare 17th- to 20th-century instruments is accompanied by
+        informative panels on the life and times of Venice\’s Antonio Vivaldi. To hear these
+        instruments in action, check out the kiosk with CDs and concert tickets for Interpreti
+        Veneziani, which runs the museum.</string>
+    <string name="museo_della_musica_url">http://www.museodellamusica.com/en</string>
+    <string name="the_peggy_guggenheim_collection_name">The Peggy Guggenheim Collection</string>
+    <string name="the_peggy_guggenheim_collection_address">
+        Visit the modern art museum on the Grand Canal in Venice.</string>
+    <string name="the_peggy_guggenheim_collection_description">The Peggy Guggenheim Collection is a
+        modern art museum on the Grand Canal in the Dorsoduro sestiere of Venice, Italy. It is one
+        of the most visited attractions in Venice. The collection is housed in the Palazzo Venier
+        dei Leoni, an 18th-century palace, which was the home of the American heiress Peggy
+        Guggenheim for three decades. She began displaying her private collection of modern artworks
+        to the public seasonally in 1951. After her death in 1979, it passed to the Solomon R.
+        Guggenheim Foundation, which eventually opened the collection year-round.\n\nThe collection
+        includes works of prominent Italian futurists and American modernists working in such genres
+        as Cubism, Surrealism and Abstract expressionism. It also includes sculptural works.</string>
+    <string name="the_peggy_guggenheim_collection_url">
+        http://www.guggenheim-venice.it/default.html</string>
+    <string name="lido_islands_beach_name">Lido Island\'s Beach</string>
+    <string name="lido_islands_beach_address">Perfect retreat from crowded streets of Venice.</string>
+    <string name="lido_islands_beach_description">The Lido, or Venice Lido (Lido di Venezia), is an
+        11-kilometre (7-mile) long sandbar in Venice, northern Italy; it is home to about 20,000
+        residents. The Venice Film Festival takes place at the Lido every September.\n\nThe island
+        is home to three settlements. The Lido itself, in the north, is home to the Film Festival,
+        the Grand Hotel des Bains, the Venice Casino and the Grand Hotel Excelsior. Malamocco, in
+        the centre, was the first and, for a long time, the only settlement. It was at one time home
+        to the Doge of Venice. Alberoni at the southern end is home to the golf course. Frequent
+        public buses run the length of the island along the main street.\n\nAt least half the
+        Adriatic side of the island is a sandy beach, much of it belonging to the various hotels that
+        house the summer tourists. These include the renowned Excelsior and the Des Bains, setting
+        for Thomas Mann\'s classic novel Death in Venice, currently undergoing major renovation.
+        These beaches are private, though towards the northern and southern ends of the island there
+        are two enormous public beaches. The Adriatic Sea is fairly clean and warm, ideal for
+        children, with only the occasional jellyfish to disturb swimming.\n\nThe heart of the island
+        is the Gran Viale Santa Maria Elisabetta, a wide street approximately 700 m long that leads
+        from the lagoon and vaporetto (water bus) stop on one side across to the sea on the other.
+        It houses hotels, shops, and tourist-centric restaurants.\n\nVenezia Lido, a public airport
+        suitable for smaller aircraft, is found on the NE end of Lido di Venezia. It has a 1000m
+        grass runway.</string>
+    <string name="lido_islands_beach_url">http://www.lidodivenezia.it/</string>
+    <string name="murano_name">Murano - The Glass Island</string>
+    <string name="murano_address">Murano is really well known for the glass making.</string>
+    <string name="murano_description">Murano is an island town close to Venice\'s northern shore.
+        It\'s not as large or as important as its neighbour, but it does still have a Grand Canal,
+        some elegant palazzi and a couple of fine churches. Murano is most famous for its glassmaking
+        factories, and tourists throng the main canalsides, which are lined with shops and showrooms.
+        In 1291 Venice\'s glass furnaces were all moved to this island, to protect the city from
+        outbreaks of fire. Venice was famed for its glass, and any glass-makers who left the lagoon
+        were viewed as traitors - there are lurid tales of them being pursued and assassinated. Glass
+        is still Murano\'s trade, although it\'s as much a tourist attraction as a centre of industry
+        nowadays, and lots of the glass on sale comes from China. You\'ll see glass everywhere you
+        turn: an outdoors Christmas tree of glass; a street-shrine with a glass Madonna and Child.
+        It\'s a good place to buy your gifts, and although the canalsides get crowded, there are so
+        many shops that you can generally manage to browse in peace.</string>
+    <string name="murano_url">https://en.wikipedia.org/wiki/Murano</string>
+    <string name="colorful_burano_island_name">Colorful Burano Island</string>
+    <string name="colorful_burano_island_address">
+        Burano is famous for its colorful houses and lace making.</string>
+    <string name="colorful_burano_island_description">All visitors of Burano remain intrigued by the
+        many colours and the colorful houses that are reflected into the green waters of channels,
+        by the leaning bell tower, by the tranquility and the calmness with which the elderly ladies
+        embroider original Burano lace by their tombolo (or lace pillow), while they are laughing and
+        chatting in squares among them. It seems to be in paradise. Children who dart freely with
+        their bicycles, balconies with multicolored flowers, fishermen who put up fresh fish from
+        their traditional boats.</string>
+    <string name="colorful_burano_island_url">http://www.isoladiburano.it/en/</string>
+
+    <!-- HOTELS CATEGORY -->
+
+    <string name="hilton_molino_stucky_name">Hilton Molino Stucky Venice</string>
+    <string name="hilton_molino_stucky_address">Giudecca, 810, 30133\u00A0Venice, Italy</string>
+    <string name="hilton_molino_stucky_description">This luxurious hotel in a restored, redbrick
+        flour mill on Giudecca Island, is a 6-minute walk from the nearest vaporetto stop and a
+        12-minute walk from the Peggy Guggenheim Collection. It\'s 2.5 km from Rialto Bridge.\n\n
+        Sophisticated rooms feature Wi-Fi (fee) and flat-screen TVs; some have Venice views.
+        Upgraded options offer access to an executive lounge; suites add living rooms,
+        marble bathrooms and dining rooms. Room service is available.\n\n
+        Breakfast (fee) is offered in 1 of 4 restaurants. There\'s also a swanky rooftop bar and
+        a relaxed lounge. Other amenities include a rooftop pool (seasonal), a spa and a gym. An
+        area shuttle boat is available.</string>
+    <string name="hilton_molino_stucky_url">http://www3.hilton.com/en/hotels/italy/hilton-molino-
+        stucky-venice-VCEHIHI/index.html?WT.mc_id=zELWAKN0EMEA1HI2DMH3LocalSearch4DGGenericx6VCEHIHI
+    </string>
+    <string name="starhotels_splendid_name">Starhotels Splendid Venice</string>
+    <string name="starhotels_splendid_address">San Marco Mercerie, 760, 30124\u00A0Venice, Italy</string>
+    <string name="starhotels_splendid_description">This high-end canal-side hotel is 0.3 km from
+        Saint Mark\'s Basilica.\n\nCozy, elegant rooms with wood floors feature free Wi-Fi,
+        flat-screen TVs, minifridges and marble bathrooms. Regal suites add living areas and
+        complimentary wine, and some have canal views. Upgraded suites offer butler service,
+        iPod/iPhone docks, espresso machines, and whirlpool tubs, and some have private terraces.
+        Room service is available 24/7.\n\nBreakfast is complimentary. Amenities include a posh
+        restaurant with a glass ceiling and a fireplace, plus a stylish canal-view bar. There\'s
+        also a rooftop terrace, a library and water taxi access. Pets may be welcome with prior notice.
+    </string>
+    <string name="starhotels_splendid_url">https://www.starhotels.com/en/our-hotels/splendid-venice-
+        venice/?utm_source=google&amp;utm_medium=local&amp;utm_campaign=glocal</string>
+    <string name="jw_marriott_venice_resort_spa_name">JW Marriott Venice Resort &#038; Spa</string>
+    <string name="jw_marriott_venice_resort_spa_address">
+        Isola delle Rose, Laguna di San\u00A0Marco, 30133\u00A0Venice, Italy</string>
+    <string name="jw_marriott_venice_resort_spa_description">Set on a private island in the Venetian
+        lagoon, this palatial resort is a 13-minute boat shuttle from Piazza San Marco and a
+        9-minute boat shuttle from the Bridge of Sighs.\n\nChic rooms feature Wi-Fi (fee),
+        flat-screen TVs, and tea and coffeemaking facilities. Suites add sitting areas. Upgraded
+        quarters offer balconies; some have separate bedrooms, free Wi-Fi and 2nd levels. A 2-bedroom
+        villa with a pool is available.\n\nA boat shuttle and breakfast are complimentary. There are
+        also 4 restaurants and 2 bars, plus a spa, an outdoor pool and a hot tub. Pets are welcome.
+    </string>
+    <string name="jw_marriott_venice_resort_spa_url">http://www.marriott.com/hotels/travel/vcejw-jw-
+        marriott-venice-resort-and-spa/</string>
+    <string name="hotel_nh_collection_venezia_palazzo_barocci_name">
+        Hotel NH Collection Venezia Palazzo Barocci</string>
+    <string name="hotel_nh_collection_venezia_palazzo_barocci_address">
+        Corte dell\'Albero, 3878/a, 30124\u00A0Venice, Italy</string>
+    <string name="hotel_nh_collection_venezia_palazzo_barocci_description">Set on the Grand Canal,
+        this elegant hotel in an 1890s-era former palace is a 10-minute walk from Piazza San Marco
+        and 14 minutes\' walk from the Bridge of Sighs.\n\nUpscale rooms have free Wi-Fi, flat-screen
+        TVs, minibars, and tea and coffeemaking facilities. Upgraded rooms add canal views. Suites
+        offer separate living areas; some have private terraces.\n\nThe hotel provides complimentary
+        buffet breakfast. Additional amenities include a refined lounge bar, a garden area and a
+        private dock, as well as a business center and meeting space. An airport shuttle (by boat)
+        is available for a fee.</string>
+    <string name="hotel_nh_collection_venezia_palazzo_barocci_url">https://www.nh-collection.com/it/
+        hotel/nh-collection-venezia-palazzo-barocci</string>
+    <string name="hotel_a_la_commedia_name">Hotel A La Commedia</string>
+    <string name="hotel_a_la_commedia_address">San Marco, 4596/A, 30124\u00A0Venice, Italy</string>
+    <string name="hotel_a_la_commedia_description">This elegant hotel is 2 minutes\' walk from Rialto
+        (Riva del Carbon) ferry stop, 5 minutes\' walk from Piazza San Marco and 6 minutes\' walk from
+        Saint Mark\'s Basilica.\n\nThe opulent rooms come with complimentary Wi-Fi, flat-screen TVs
+        and minibars, as well as iPod docks, safes and windows that open. They also have marble
+        bathrooms. Suites have pull-out couches and seating areas. Room service is available.\n\n
+        The hotel serves complimentary breakfast in a simple but stylish restaurant. There is also a
+        trendy cocktail bar and a business center. Parking is available for a fee.</string>
+    <string name="hotel_a_la_commedia_url">http://www.commediahotel.com/</string>
+    <string name="hotel_danieli_name">Hotel Danieli</string>
+    <string name="hotel_danieli_address">Castello, 4196, 30122\u00A0Venice, Italy</string>
+    <string name="hotel_danieli_description">Set in a lavish Venetian building, this luxurious
+        waterfront hotel is a 5-minute walk from Piazza San Marco and 1.3 km from the iconic Grand
+        Canal.\n\nFeaturing high ceilings and plush drapes, the opulent rooms offer free Wi-Fi and
+        flat-screen TVs. Upgraded rooms add features such as tapestries and sitting areas, while
+        suites offer lagoon views. Room service is available.\n\nThe refined restaurant serves
+        gourmet Venetian cuisine. There\'s also a cocktail bar, a wine suite, a terrace with lagoon
+        views, and a fitness room. In-room massages are also available.</string>
+    <string name="hotel_danieli_url">http://www.danielihotelvenice.com/</string>
+    <string name="hotel_metropole_name">Hotel Metropole</string>
+    <string name="hotel_metropole_address">Riva degli Schiavoni, 4149, 30122\u00A0Venice, Italy</string>
+    <string name="hotel_metropole_description">This upscale hotel is an 8-minute walk from Saint
+        Mark\'s Basilica, a 9-minute walk from Piazza San Marco and 1.5 km from the Grand Canal.\n\n
+        Ornate rooms and suites with plush decor and elegant furniture come with seating areas;
+        1 suite has a rooftop terrace.\n\n</string>
+    <string name="hotel_metropole_url">http://www.hotelmetropole.com/</string>
+    <string name="belmond_hotel_cipriani_name">Belmond Hotel Cipriani</string>
+    <string name="belmond_hotel_cipriani_address">Giudecca, 10, 30133\u00A0Venice, Italy</string>
+    <string name="belmond_hotel_cipriani_description">A 15-minute stroll from Piazza San Marco,
+        this lavish, landmark hotel is also 13 minutes by foot from St. Mark\'s Basilica.\n\nElegant
+        rooms with garden or lagoon views, offer flat-screens and free Wi-Fi, plus iPod docks and
+        minibars; some have balconies or kitchenettes. Suites add plush seating areas or lounges, and
+        hints including poolside views, antique artworks or terraces with hot tubs. Room service is
+        available.\n\nFree perks include breakfast and a local area shuttle boat. There\'s also a
+        refined restaurant, a waterfront bistro and a chic bar, in addition to an Olympic-sized
+        outdoor pool, a spa and tennis courts. Closed November to March.</string>
+    <string name="belmond_hotel_cipriani_url">https://www.belmond.com/hotel-cipriani-venice/</string>
+    <string name="boscolo_venezia_name">Boscolo Venezia</string>
+    <string name="boscolo_venezia_address">
+        Fondamenta Madonna dell\'Orto, 3500, 30121\u00A0Venice, Italy</string>
+    <string name="boscolo_venezia_description">Set 1.8 km from the Grand Canal, this ornate hotel is
+        also 1.9 km from Saint Mark\'s Basilica.\n\nDecorated with antique furnishings, the refined,
+        period-style rooms and suites also have free Wi-Fi and cable TVs. Suites add living areas,
+        and luxe upgraded suites have whirlpool tubs in en suite bathrooms.\n\nThere\'s free motorboat
+        shuttle service to St. Mark Square. The hotel has a restaurant for Venetian and international
+        cuisine, plus an elegant bar. Other amenities include a high-end spa, a garden, and meeting
+        and event facilities.</string>
+    <string name="boscolo_venezia_url">http://venezia.boscolohotels.com/</string>
+    <string name="canal_grande_hotel_name">Canal Grande Hotel</string>
+    <string name="canal_grande_hotel_address">
+        Santa Croce, 932, 30135 Campo San Simeone Grande, Venice, Italy</string>
+    <string name="canal_grande_hotel_description">Overlooking the Canal Grande, this ornate hotel is
+        a 5-minute walk from Stazione di Venezia Santa Lucia and 1.9 km from the Piazza San Marco.\n\n
+        The refined rooms are inspired by Venetian art and history with gold-framed mirrors, Murano
+        glass, briar-root furniture decorated with gold leaf, and soft wood floors. All have en suite
+        marble bathrooms, free Wi-Fi, flat-screen TVs and air-conditioning. Suites add separate living
+        areas.\n\nAmenities include a free breakfast buffet, a waterside terrace and a bar with velvet
+        armchairs. The Rococo-style lobby has a rose marble fireplace. The hotel is accessed directly
+        from the canal, as well as from dry land.</string>
+    <string name="canal_grande_hotel_url">http://www.hotelcanalgrande.it/</string>
+
+    <!-- RESTAURANTS CATEGORY -->
+    <string name="il_paradiso_perduto_name">Il Paradiso Perduto</string>
+    <string name="il_paradiso_perduto_address">Fondamenta Misericordia, 2540, 30100 Venice, Italy</string>
+    <string name="il_paradiso_perduto_description">Fondamenta della Misericordia is the place to be.
+        In this walk that runs from Venice Ghetto to Strada Nova, you can find some of the most
+        interesting spots for young people (and not only) in Venice.\n\nIndeed the most famous is
+        Paradiso Perduto. What about this legendary place? It was born in the 80s out of desire by a
+        group of students, including Maurizio Adamo who is still the manager. Within some years
+        Paradiso has became a reference point for those interested in listening to jazz music and of
+        course in tasting a good Venetian meal.\n\nThe restaurant is a typical Osteria, always
+        chaotic and overcrowded but with a unique atmosphere. Adamo runs between wooden tables
+        offering wine from the carafe with a good smile.This place is perfect for a Sunday lunch
+        outside in Fondamenta or for a dinner with friends.\n\nCheck out the weekly calendar for
+        events and book in advance. On Saturday, even if you have a reservation, you will probably
+        have to wait for your table.</string>
+    <string name="il_paradiso_perduto_url">https://ilparadisoperduto.wordpress.com/</string>
+    <string name="osteria_enoteca_ai_artisti_name">Osteria Enoteca Ai Artisti</string>
+    <string name="osteria_enoteca_ai_artisti_address">
+        Fondamenta della Toletta 1169\abc, 30123\u00A0Venice, Italy</string>
+    <string name="osteria_enoteca_ai_artisti_description">Good things come in small packages at this
+        Dorsoduro osteria, which manages to turn out gourmet lunches and dinners in a space that
+        would be tight even for a neighbourhood bar. It can seat just 20 – including two perched at
+        the window shelf – but it\'s worth the claustrophobia, as the food here is seriously good.
+        They pride themselves on having no freezer: the militantly fresh and local menu changes
+        every day, according to what the market provides. Nothing fancy: just the kind of excellent
+        home cooking that so many chefs strive to reproduce.</string>
+    <string name="osteria_enoteca_ai_artisti_url">http://www.enotecaartisti.com/</string>
+    <string name="bistrot_de_venise_name">Bistrot de Venise</string>
+    <string name="bistrot_de_venise_address">
+        Calle dei Fabbri, Sestiere San Marco, 4685, 30124\u00A0Venice, Italy</string>
+    <string name="bistrot_de_venise_description">Bistrot de Venise first opened in 1993 and has since
+        become a hangout and meeting place where the figurative arts, poetry and culture combine,
+        simply, with Food and Wine....1999 saw the start of our research into Rare Wines and
+        Historical Venetian Cuisine, strengthening our concept of applying culture to local and
+        regional Gastronomy and Wine. ...our hard work still continues today... Gastronomy &amp;
+        Wine…extensive research on the history of venetian Cuisine and Wines, from its noble origins
+        to the present time. The Historic &amp; Renaissance Venetian Cuisine revised and suggested
+        by our Chef Mario Missese and his young team. Our House, unique in town, offer a gastronomic
+        trip back to the past glories of Venice following its history &amp; tradition. ”Award winning”
+        wine list, for the quality and variety of the selected rare wines from the Veneto Region and
+        the North-East of Italy. Professional wine tasting (free) all year round.
+        "..exciting Wine List" .. (see Michelin Guide 2012) specialized in the research of many Rare
+        Wines, a truly unique selection purchased directly from small producers with the help of
+        Istituto Sperimentale di Viticoltura di Conegliano. More than 60 options by the glass and a
+        wide selection of the most prestigious italian vineyards. Prized Wine List by Italian
+        Sommelier Association for best 15 in the Veneto Region at Vinitaly 2010.</string>
+    <string name="bistrot_de_venise_url">http://www.bistrotdevenise.com/?lang=en</string>
+    <string name="restaurant_la_caravella_name">Restaurant La Caravella</string>
+    <string name="restaurant_la_caravella_address">
+        Calle Larga XXII Marzo, 2399, 30100 San Marco, Venice, Italy</string>
+    <string name="restaurant_la_caravella_description">La Caravella restaurant in Venice can be
+        discovered immediately behind the newly-restored La Fenice theatre, just a few paces from the
+        Piazza San Marco. Stepping inside, you will feel as if you have entered an antique sailing
+        ship, with dark wood paneling, capstans and ropes and leaded windows. In summer, you may not
+        step inside at all as La Caravella moves into a flower-filled courtyard complete with
+        original wells, or the lighter courtyard dining room with typical Venetian ambience. The menu
+        is typically Venetian too, with dishes like classic saor, marinated sardines with onions,
+        pine kernels and raisins, fish soup, or oven orast turbot with potatoes and olives. In
+        addition, the chef uses fresh seasonal ingredients to create trendier fare. The excellent
+        wine list features both historical wine producers and smaller boutique vintners. Planning a
+        party? La Caravella welcomes wedding receptions, private dinners, banquets, corporate
+        entertaining, even coffee breaks. The garden seats up to 65 and one of the dining rooms up
+        to 75.</string>
+    <string name="restaurant_la_caravella_url">http://www.restaurantlacaravella.com/</string>
+    <string name="osteria_antico_giardinetto_name">Osteria Antico Giardinetto</string>
+    <string name="osteria_antico_giardinetto_address">
+        Calle dei Morti, 2253, 30135\u00A0Santa\u00A0Croce, Venice, Italy</string>
+    <string name="osteria_antico_giardinetto_description">The name refers to the intimate garden
+        where co-owner Larisa will welcome you warmly, once you\'ve wound your way from the Rialto or
+        San Stae down the narrow calle to this romantic locale. (There\'s an indoor dining room as
+        well, but the garden is covered and heated in winter.) Larisa\'s husband, Virgilio, mans the
+        kitchen, where he prepares such dishes as sea bass in salt crust and a grilled fish platter.
+        Be sure to try the homemade gnocchi or pasta—perhaps the tagliolini (thin spaghetti) with
+        scallops and artichokes. You\'ll also find some fine meat options here. Desserts, like the
+        chocolate mousse or crème caramel, are homemade as well. The wine list features some
+        excellent regional selections.</string>
+    <string name="osteria_antico_giardinetto_url">http://www.anticogiardinetto.it/</string>
+    <string name="ai_mercanti_name">Ai Mercanti</string>
+    <string name="ai_mercanti_address">Calle Fuseri, 4346/a, 30011\u00A0Venice, Italy</string>
+    <string name="ai_mercanti_description">Ristorante Ai Mercanti in the heart of Venice between the
+        Rialto Bridge and Piazza San Marco is an upmarket, romantic restaurant in very cool style
+        that enjoys a high-flying gastronomic reputation. The vaulted dining room is decorated in
+        sophisticated terracotta and black with impressive shining globe lighting. The bar is wittily
+        decorated with dressmakers’ forms and sexy corsets – great conversation starters. The menu is
+        classically-inspired Venetian of a high order, focusing on things from the sea and changing
+        every two months to take advantage of the and array of the freshest ingredients
+        in true Italian style and pastas and desserts are all made in-house. In warm weather the
+        dining room sprawls out onto the adjoining campiello for the loveliest al fresco dining
+        anywhere – the Venetians who crowd Ai Mercanti certainly think so. </string>
+    <string name="ai_mercanti_url">http://www.aimercanti.com/comearrivare.htm</string>
+    <string name="la_zucca_name">La Zucca</string>
+    <string name="la_zucca_address">Santa Croce 1762, 30135\u00A0Venice, Italy</string>
+    <string name="la_zucca_description">The simple place settings, lattice-wood walls, and mélange
+        of languages make La Zucca (the pumpkin) feel much like a typical, somewhat sophisticated
+        vegetarian restaurant that you could find in any European city. What makes La Zucca special
+        is the use of fresh, local ingredients (many of which, like the particularly sweet zucca
+        itself, aren\'t normally found outside northern Italy), and simply great cooking. Though
+        the menu does have superb meat dishes such as the piccata di pollo ai caperi e limone
+        con riso (sliced chicken with capers and lemon served with rice), more attention is paid to
+        dishes from the garden: try the radicchio di Treviso con funghi e scaglie di Montasio
+        (with mushrooms and shavings of Montasio cheese), the finocchi piccanti con olive
+        (fennel in a spicy tomato-olive sauce), or the house\'s signature dish—the flan di zucca,
+        a luscious, naturally sweet, pumpkin pudding topped with slivered, aged ricotta cheese.</string>
+    <string name="la_zucca_url">http://www.lazucca.it/en</string>
+    <string name="osteria_alla_ciurma_name">Osteria Alla Ciurma</string>
+    <string name="osteria_alla_ciurma_address">Calle Galeazza, 406/A, 30125\u00A0Venice, Italy</string>
+    <string name="osteria_alla_ciurma_description">The morning Rialto market is the liveliest part of
+        the Serenissima, where locals come to do their food shopping and stop off for a drink and
+        bite at one of the bars in the maze of side streets. The insider address to track down is
+        Alla Ciurma, an ancient storeroom converted into a tiny bar resembling the inside of a boat,
+        hence the name, The Crew. Working in a miniscule kitchen, owner Marco Paola makes creamy
+        baccalà mantecato (creamy codfish mousse) tuna polpette, or “meatballs”, and courgette
+        flowers stuffed with mozzarella and anchovies. Now he is experimenting by marinating raw fish
+        in fruity olive oil and herbs – monkfish with olives and mint, seabream with basil and lemon,
+        mackerel with laurel leaves and onion. The excellent house wine is 90 cents a glass,
+        cicheti are €1-€1.50, with a sharing plate of cheeses and salami at €15.</string>
+    <string name="osteria_alla_ciurma_url">http://www.osteriaciurma.it/</string>
+    <string name="la_colombina_name">La Colombina</string>
+    <string name="la_colombina_address">Cannaregio, 1828, 30131\u00A0Venice, Italy</string>
+    <string name="la_colombina_description">Right in the heart of Venice, between Santa Lucia train
+        station and the Rialto Bridge, and just a few steps away from the Casino, you will find a
+        restaurant where we have translated our welcoming philosophy into a concrete culinary
+        experience: "La Colombina".\n\nThere are numberless reasons to visit and revisit Venice, but
+        now you can add one more: "La Colombina", a gastronomic experience inspired by tradition but
+        also focused on contemporaneity. In short, a new "classic" ranging from traditional Venetian
+        dishes to unique gourmet temptations going from aperitifs to lunches and special occasions.
+    </string>
+    <string name="la_colombina_url">http://www.ristorantelacolombina.eu/it/</string>
+    <string name="corte_sconta_name">Corte Sconta</string>
+    <string name="corte_sconta_address">Calle del Pestrin, 3886, 30122 Castello, Venice, Italy</string>
+    <string name="corte_sconta_description">The restaurant Calle Sconta is located on  Court of
+        Pestrin, Castello 3886, and is a landmark restaurant in the Venetian. The quality and
+        freshness of the season followed by the service in a courteous and attentive. Strengths of
+        the menu are clams with ginger, the crab in water, creamed cod, sardines in sauce, and the
+        inevitable fresh pasta homemade daily and combined with seafood and vegetables. Weekly rest
+        on Sundays and Mondays.</string>
+    <string name="corte_sconta_url">http://www.cortescontavenezia.com/</string>
+
+    <!-- DESCRIPTION ACTIVITY -->
+    <string name="description_more_info">more info</string>
+
+</resources>

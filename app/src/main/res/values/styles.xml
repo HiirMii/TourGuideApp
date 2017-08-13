@@ -1,0 +1,65 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="actionBarStyle">@style/TourGuideAppBarStyle</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <!-- App bar style -->
+    <style name="TourGuideAppBarStyle" parent="style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <!-- Remove the shadow below the app bar -->
+        <item name="elevation">0dp</item>
+    </style>
+
+    <!-- Style for a tab that displays a category name icons-->
+    <style name="CategoryTab" parent="Widget.Design.TabLayout">
+        <item name="tabTextAppearance">@style/MyCustomTextAppearance</item>
+    </style>
+
+    <!-- Text appearance style for a category tab -->
+    <style name="MyCustomTextAppearance" parent="TextAppearance.Design.Tab">
+        <!-- That change allows to display icons as tab titles -->
+        <item name="textAllCaps">false</item>
+    </style>
+
+    <!-- Style for image label container-->
+    <style name="image_label_container">
+        <item name="android:background">@color/black_opaque</item>
+    </style>
+
+    <!-- Styles for image labels -->
+    <style name="image_label_text_1">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="image_label_text_2">
+        <item name="android:textColor">@color/white_opaque</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <!-- Styles for text containers -->
+    <style name="text">
+        <item name="android:padding">@dimen/padding_normal</item>
+    </style>
+
+    <!-- style for list item name field-->
+    <style name="list_item_name_text">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/name_text</item>
+    </style>
+
+    <!-- Style for more info button -->
+    <style name="description_more_info">
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:padding">@dimen/padding_normal</item>
+    </style>
+
+</resources>

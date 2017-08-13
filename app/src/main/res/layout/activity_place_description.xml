@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.tourguideapp.PlaceDescriptionActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/description_image"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/image_height"
+            android:contentDescription="@string/place_image_description"
+            android:scaleType="centerCrop"
+            tools:src="@drawable/sights_grand_canal" />
+
+        <LinearLayout
+            android:id="@+id/description_image_label_container"
+            style="@style/image_label_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/description_image"
+            android:orientation="vertical"
+            android:padding="@dimen/padding_normal">
+
+            <TextView
+                android:id="@+id/description_name"
+                style="@style/image_label_text_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="@string/grand_canal_name" />
+
+            <TextView
+                android:id="@+id/description_address"
+                style="@style/image_label_text_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="@string/grand_canal_address" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/description_text_container"
+            style="@style/text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/description_image_label_container"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/description_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="@string/grand_canal_description" />
+
+            <TextView
+                android:id="@+id/description_more_info"
+                style="@style/description_more_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                tools:text="@string/description_more_info" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

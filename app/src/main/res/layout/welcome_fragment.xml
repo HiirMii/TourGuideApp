@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/welcome_image"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/image_height"
+            android:contentDescription="@string/welcome_image_description"
+            android:scaleType="centerCrop"
+            android:src="@drawable/venice_welcome_image" />
+
+        <LinearLayout
+            android:id="@+id/image_label_container"
+            style="@style/image_label_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/welcome_image"
+            android:orientation="vertical"
+            android:padding="@dimen/padding_normal">
+
+            <TextView
+                android:id="@+id/welcome_image_label_1"
+                style="@style/image_label_text_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/welcome_image_label_1" />
+
+            <TextView
+                android:id="@+id/welcome_image_label_2"
+                style="@style/image_label_text_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/welcome_image_label_2" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/welcome_text"
+            style="@style/text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/image_label_container"
+            android:text="@string/welcome_text" />
+
+    </RelativeLayout>
+
+</ScrollView>

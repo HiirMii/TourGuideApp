@@ -1,0 +1,12 @@
+<resources>
+    <!-- Height of each list item -->
+    <dimen name="list_item_height">90dp</dimen>
+    <!-- Width of the image in list view -->
+    <dimen name="list_item_image_width">120dp</dimen>
+    <!-- List item name text size -->
+    <dimen name="name_text">18sp</dimen>
+    <!-- Main image height -->
+    <dimen name="image_height">240dp</dimen>
+    <!-- Padding value -->
+    <dimen name="padding_normal">16dp</dimen>
+</resources>
